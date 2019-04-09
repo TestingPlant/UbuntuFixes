@@ -1,6 +1,7 @@
 # credit: https://askubuntu.com/questions/850281/opencl-on-ubuntu-16-04-intel-sandy-bridge-cpu
 # website saved in https://web.archive.org/web/20190308021648/https://askubuntu.com/questions/850281/opencl-on-ubuntu-16-04-intel-sandy-bridge-cpu in case it is deleted
 # archive saved on 07/03/2019 (dd/mm/yyyy) 
+#!/bin/bash
 sudo aptitude install ocl-icd-libopencl1 opencl-headers clinfo opencl-icd-opencl-dev
 # since I made it just to fix my issues, the following code will only work on Intel products.
 sudo aptitude install beignet
