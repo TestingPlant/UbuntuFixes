@@ -1,4 +1,5 @@
 #A bunch of solutions I found which could fix bluetooth problems
+#!/bin/bash
 echo "Running bluetooth fixes" 
 /usr/sbin/rfkill unblock bluetooth 1> /dev/null
 /usr/sbin/rfkill | /bin/grep bluetooth | /bin/grep -w blocked
